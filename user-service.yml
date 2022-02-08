@@ -1,0 +1,15 @@
+token:
+  expiration_time: 86400000
+  secret: user_token
+  #secret: user_token_changed#1
+
+gateway:
+  ip: 192.168.0.8
+
+# [35] 
+order_service:
+  #url: http://127.0.0.1:8000/order-service/%s/orders
+  url: http://ORDER-SERVICE/order-service/%s/orders 
+  # ORDER-SERVICE 는 Eureka 에서 확인
+  exception:
+    orders_are_empty: User's orders are empth!.
