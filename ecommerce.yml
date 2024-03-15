@@ -1,4 +1,4 @@
 token:
-  expiration_time: 86400001  # 60초 * 60분 * 24 시간 * 1000 (ms)
+  expiration_time: 86400000  # 60초 * 60분 * 24 시간 * 1000 (ms)
   secret: mynameisjiniparkiliveinyonginsin
   
