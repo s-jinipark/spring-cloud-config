@@ -3,5 +3,5 @@ token:
   secret: my_name_jini_i_live_in_yongin_si_dev
 
 gateway:
-  ip: 192.168.0.8
+  ip: 192.168.0.88
 # 강사 ip
